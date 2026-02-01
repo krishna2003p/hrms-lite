@@ -19,6 +19,28 @@ hrms-lite/
 
 ---
 
+
+## Database Setup (Required)
+
+This project uses **MySQL** as the database.
+
+Before running the backend, please ensure:
+
+### 1. MySQL is installed and running
+```bash
+mysql --version
+
+
+Login to MySQL:
+
+mysql -u root -p
+
+
+Create database:
+
+CREATE DATABASE hrms_lite;
+
+
 ## Backend Setup
 ```bash
 cd backend
