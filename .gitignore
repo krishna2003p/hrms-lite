@@ -1,0 +1,14 @@
+# global
+.env
+.env.*
+.DS_Store
+
+# backend
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+
